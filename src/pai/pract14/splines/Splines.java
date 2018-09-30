@@ -3,10 +3,6 @@
  */
 package pai.pract14.splines;
 
-import javax.swing.BoxLayout;
-import javax.swing.JApplet;
-import javax.swing.JPanel;
-
 import pai.pract14.splines.controller.Controller;
 
 
@@ -20,24 +16,7 @@ import pai.pract14.splines.controller.Controller;
  * @version 1.0
  * @since 11 may. 2018
  */
-@SuppressWarnings("deprecation")
-public class Splines extends JApplet {
-
-	/** Default serial version ID. */
-	private static final long serialVersionUID = 1L;
-
-	
-	/**
-	 * Init method for the Applet mode execution.
-	 */
-	public void init() {
-		Controller controller = new Controller();
-		JPanel mainPanel = new JPanel();
-		mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
-		mainPanel.add(controller.getView().getSplinesPanel());
-		mainPanel.add(controller.getView().getControlPanel());
-		this.add(mainPanel);
-	}
+public class Splines {
 	
 	/**
 	 * Main method.

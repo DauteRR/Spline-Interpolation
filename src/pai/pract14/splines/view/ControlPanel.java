@@ -53,7 +53,6 @@ public class ControlPanel extends JPanel {
 		generateTextField = new JTextField("6");
 		generateTextField.setColumns(COLUMNS);
 		generateTextField.setName("Generate textfield");
-		generateTextField.setRequestFocusEnabled(false);
 
 		generateButton = new JButton("Generate");
 		generateButton.addActionListener(buttonsActionListener);
