@@ -8,19 +8,20 @@ The approach to mathematically model the shape of such elastic rulers fixed by n
 
 * The amount of knots can be indicated by the user using a text field and a button to generate them randomly. The user can also remove the knots with a button.
 
-<img src="gifs/1.gif" width="900" height="933"/>
-
 * There are two checkbox to specify which kinds of splines will be visualized.
-
-<img src="gifs/2.gif" width="900" height="933"/>
 
 * The user can move freely any knots dragging it with the mouse.
 
-<img src="gifs/3.gif" width="900" height="933"/>
-
 * Another way to move a knot is selecting it pressing 'n' key (the selected knot is indicated by the black color) and using 'w', 'a', 's' and 'd' keys. The coordinates of the selected knot will be displayed.
 
-<img src="gifs/4.gif" width="900" height="933"/>
+Establishing knots         |  Kinds of splines
+:-------------------------:|:-------------------------:
+<img src="gifs/1.gif" width="450" height="466"/>  |  <img src="gifs/2.gif" width="450" height="466" />
+
+
+Knots mouse move           |  Knots keyboard move
+:-------------------------:|:-------------------------:
+<img src="gifs/3.gif" width="450" height="466"/>  |  <img src="gifs/4.gif" width="450" height="466" />
 
 ## Execution
 
